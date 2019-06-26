@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	int n;
+	int rem=0,t=0;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+		rem=n%10;
+		t=t*10+rem;
+		n=n/10;
+	}
+	printf("%d",t);
+	return 0;
+}
+
