@@ -15,7 +15,7 @@ int main()
     }
     else if(max1<max && max1<input)
     max1=input;
-    }while(1)
+    }while(1);
    printf("%d %d",max,max1);
    return 0;
  }
