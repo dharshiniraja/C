@@ -6,7 +6,7 @@ int main(){
   double p=0,s=0;
   p=(a+b+c)/2;
   s=sqrt(p*(p-a)*(p-b)*(p-c));
-  print(".2lf",s);
+  print("%.2lf",s);
   return 0;
   }
   
