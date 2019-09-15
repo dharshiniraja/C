@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include <stdlib.h>
+
 
 int main() {
 
     int k=0;
     char n[1000];   
-    scanf("%[^\n]*%s",&n);
+    scanf("%[^\n]s",&n);
     k=strlen(n);
     for(int i=0;i<k;i++)
     {
@@ -20,6 +20,6 @@ int main() {
 }
 
 Input:
-hello
+hello. 
 Output:
 hllo
